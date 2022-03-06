@@ -1,18 +1,18 @@
-# event-stereo
-This is a code repo for Learning to Super Resolve Intensity Images from Events
+# Event-stereo
+This is a code repo for "Stereo Depth from Events Cameras: Concentrate and Focus on the Future"
 
 ### Maintainer
 * [Yeong-oo Nam]
 
-## Table Of Contents
+## Table of contents
 - [Pre-requisite](#pre-requisite)
     * [Hardware](#hardware)
     * [Software](#software)
     * [Dataset](#dataset)
-- [Getting Started](#getting-started)
+- [Getting started](#getting-started)
 - [Training](#training)
 - [Inference](#inference)
-    * [Pre-trained Model](#pre-trained-model)
+    * [Pre-trained model](#pre-trained-model)
 
 ## Pre-requisite
 The following sections list the requirements for training/evaluation the model.
@@ -33,7 +33,7 @@ Tested on:
 ### Dataset
 Download [DSEC](https://dsec.ifi.uzh.ch/) datasets.
 
-#### 📂 Data Structure
+#### 📂 Data structure
 Our folder structure is as follows:
 ```
 DSEC
@@ -74,16 +74,16 @@ DSEC
     └── zurich_city_15_a                # same structure as test/interlaken_00_a
 ```
 
-## Getting Started
+## Getting started
 
-### Build Docker Image
+### Build docker image
 ```bash
 git clone [repo_path]
 cd event-stereo
 docker build -t event-stereo ./
 ```
 
-### Run Docker Container
+### Run docker container
 ```bash
 docker run \
     -v <PATH/TO/REPOSITORY>:/root/code \
@@ -92,7 +92,7 @@ docker run \
     event-stereo
 ```
 
-### Build Deformable Convolution
+### Build deformable convolution
 ```bash
 cd /root/code/src/components/models/deform_conv && bash build.sh
 ```
@@ -107,5 +107,5 @@ bash distributed_main.sh
 ## Inference
 Inference code will be updated soon.
 
-### Pre-trained Model
+### Pre-trained model
 Pre-trained model will be updated soon.
