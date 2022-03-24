@@ -2,15 +2,7 @@ import torch
 import numpy as np
 
 
-class Stack3D:
-    @staticmethod
-    def collate_fn(batch):
-        batch = torch.utils.data._utils.collate.default_collate(batch)
-
-        return batch
-
-
-class StackPolarityDynamic3DFixBugFast(Stack3D):
+class MixedDensityEventStacking:
     NO_VALUE = 0.
     STACK_LIST = ['stacked_polarity', 'index']
 
@@ -59,7 +51,7 @@ class StackPolarityDynamic3DFixBugFast(Stack3D):
                 stacked_polarity.put(pf_stacked_event['index'][stack_idx],
                                      pf_stacked_event['stacked_polarity'][stack_idx])
                 cur_stacked_event_list.append(np.stack([stacked_polarity], axis=2))
-            stacked_event_list.append(np.concatenate(cur_stacked_event_list, axis=2))
+            stacked_event_list.append(np.concatenate(cur_stacked_event_list[::-1], axis=2))
         if len(stacked_event_list) == 2:
             stacked_event_list[1] = stacked_event_list[1][:, :, ::-1, :]
         stacked_event = np.stack(stacked_event_list, axis=2)
@@ -118,3 +110,9 @@ class StackPolarityDynamic3DFixBugFast(Stack3D):
         }
 
         return stacked_event
+    
+    @staticmethod
+    def collate_fn(batch):
+        batch = torch.utils.data._utils.collate.default_collate(batch)
+
+        return batch

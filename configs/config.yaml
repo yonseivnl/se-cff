@@ -12,7 +12,7 @@ DATASET:
         NAME: sbn
         PARAMS:
           num_of_event: 5000000
-          stack_method: StackPolarityDynamic3DFixBugFast
+          stack_method: MixedDensityEventStacking
           stack_size: 10
           use_preprocessed_image: True
       disparity_cfg:
@@ -29,7 +29,7 @@ DATASET:
         NAME: sbn
         PARAMS:
           num_of_event: 5000000
-          stack_method: StackPolarityDynamic3DFixBugFast
+          stack_method: MixedDensityEventStacking
           stack_size: 10
           use_preprocessed_image: True
       disparity_cfg:
