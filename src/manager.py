@@ -94,10 +94,7 @@ class DLManager:
         checkpoint = self.logger.load_checkpoint(name)
         self._init_from_cfg(checkpoint['cfg'])
 
-        self.current_epoch = checkpoint['epoch']
         self.model.module.load_state_dict(checkpoint['model'])
-        self.optimizer.load_state_dict(checkpoint['optimizer'])
-        self.scheduler.load_state_dict(checkpoint['scheduler'])
 
     def _make_checkpoint(self):
         checkpoint = {
