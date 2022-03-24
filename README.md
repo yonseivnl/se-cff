@@ -105,7 +105,13 @@ bash distributed_main.sh
 ```
 
 ## Inference
-Inference code will be updated soon.
+```bash
+cd /root/code
+python3 inference.py \
+    --data_root /root/data \
+    --checkpoint_path <PATH/TO/CHECKPOINT.PTH> \
+    --save_root <PATH/TO/SAVE/RESULTS>
+```
 
 ### Pre-trained model
-Pre-trained model will be updated soon.
+Yon can download pre-trained model from [here](https://drive.google.com/file/d/14_tmyMsXkd1H_0LWWe8GOXa_86OjsboG/view?usp=sharing)
