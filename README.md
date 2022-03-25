@@ -144,7 +144,7 @@ The [DSEC website](https://dsec.ifi.uzh.ch) holds the benchmarks and competition
 
 :rocket: Our CVPR 2022 results (this repo), are available in the [DSEC website](https://dsec.ifi.uzh.ch/uzh/disparity-benchmark). We ranked better than the [state-of-the-art method from ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf) 
 
-:rocket: Our ICCV 2021 paper [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf) ranked first in the [CVPR 2021 Competition](https://dsec.ifi.uzh.ch/cvpr-2021-competition-results) hosted by the [CVPR 2021 workshop on event-based vision](https://tub-rip.github.io/eventvision2021)
+:rocket: Our ICCV 2021 paper [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf) ranked first in the [CVPR 2021 Competition](https://dsec.ifi.uzh.ch/cvpr-2021-competition-results) hosted by the [CVPR 2021 workshop on event-based vision](https://tub-rip.github.io/eventvision2021) and the [Youtube video](https://www.youtube.com/watch?v=xSidegLg0Ik&t=894s) from the competition.
 
 
 ## Related publications
