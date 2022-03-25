@@ -145,3 +145,21 @@ The [DSEC website](https://dsec.ifi.uzh.ch) holds the benchmarks and competition
 :rocket: Our CVPR 2022 results (this repo), are available in the [DSEC website](https://dsec.ifi.uzh.ch/uzh/disparity-benchmark). We ranked better than the [state-of-the-art method from ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf) 
 
 :rocket: Our ICCV 2021 paper [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf) ranked first in the [CVPR 2021 Competition](https://dsec.ifi.uzh.ch/cvpr-2021-competition-results) hosted by the [CVPR 2021 workshop on event-based vision](https://tub-rip.github.io/eventvision2021)
+
+
+## Related publications
+
+- [Event-Intensity Stereo: Estimating Depth by the Best of Both Worlds - Openaccess ICCV 2021 (PDF)](https://openaccess.thecvf.com/content/ICCV2021/papers/Mostafavi_Event-Intensity_Stereo_Estimating_Depth_by_the_Best_of_Both_Worlds_ICCV_2021_paper.pdf)
+
+- [E2SRI: Learning to Super Resolve Intensity Images from Events - TPAMI 2021 (Link)](https://www.computer.org/csdl/journal/tp/5555/01/09485034/1veokqDc14Q)
+
+- [Learning to Reconstruct HDR Images from Events, with Applications to Depth and Flow Prediction - IJCV 2021](http://vi.kaist.ac.kr/wp-content/uploads/2021/04/Mostafavi2021_Article_LearningToReconstructHDRImages-1.pdf)
+
+- [Learning to Super Resolve Intensity Images from Events - Openaccess CVPR 2020 (PDF)](https://openaccess.thecvf.com/content_CVPR_2020/papers/I._Learning_to_Super_Resolve_Intensity_Images_From_Events_CVPR_2020_paper.pdf)
+
+- [Event-Based High Dynamic Range Image and Very High Frame Rate Video Generation Using Conditional Generative Adversarial Networks - Openaccess CVPR 2019 (PDF)](http://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Event-Based_High_Dynamic_Range_Image_and_Very_High_Frame_Rate_CVPR_2019_paper.pdf)
+
+
+## License
+
+MIT license.
