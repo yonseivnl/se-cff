@@ -121,7 +121,6 @@ cd /root/code/src/components/models/deform_conv && bash build.sh
 ```
 
 ## Training
-### Usage
 ```bash
 cd /root/code/scripts
 bash distributed_main.sh
