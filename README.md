@@ -1,7 +1,7 @@
 # SE-CFF 
 ### [S]tereo depth from [E]vents Cameras: [C]oncentrate and [F]ocus on the [F]uture
-This is an official code repo for "**Stereo Depth from Events Cameras: Concentrate and Focus on the Future**" - CVPR 2022
-[Yeong-oo Nam*](), [Mohammad Mostafavi*](https://smmmmi.github.io/), [Kuk-Jin Yoon](http://vi.kaist.ac.kr/project/kuk-jin-yoon/) and [Jonghyun Choi](http://ppolon.github.io/)(Corresponding author)
+This is an official code repo for "**Stereo Depth from Events Cameras: Concentrate and Focus on the Future**"
+CVPR 2022 [Yeong-oo Nam*](), [Mohammad Mostafavi*](https://smmmmi.github.io/), [Kuk-Jin Yoon](http://vi.kaist.ac.kr/project/kuk-jin-yoon/) and [Jonghyun Choi](http://ppolon.github.io/) (Corresponding author)
 
 If you use any of this code, please cite both following publications:
 
