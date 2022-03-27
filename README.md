@@ -10,7 +10,6 @@ If you use any of this code, please cite both following publications:
   title     =  {Stereo Depth from Events Cameras: Concentrate and Focus on the Future},
   author    =  {Nam, Yeongwoo and Mostafavi, Mohammad and Yoon, Kuk-Jin and Choi, Jonghyun},
   booktitle =  {Proceedings of the IEEE/CVF Conference on Computer Vision and Patter Recognition},
-  pages     =  {1-8},
   year      =  {2022}
 }
 ```
