@@ -70,11 +70,9 @@ class SequenceDataset(torch.utils.data.Dataset):
         # Transforms
         if split in ['train', 'trainval']:
             self.transforms = transforms.Compose([
-                transforms.Padding(event_module=event_module,
-                                   disparity_module=disparity_module,
-                                   img_height=crop_height, img_width=crop_width,
-                                   no_event_value=self.event_dataset.NO_VALUE,
-                                   no_disparity_value=self.disparity_dataset.NO_VALUE),
+                transforms.RandomCrop(event_module=event_module,
+                                      disparity_module=disparity_module,
+                                      crop_height=crop_height, crop_width=crop_width),
                 transforms.RandomVerticalFlip(event_module=event_module,
                                               disparity_module=disparity_module, ),
                 transforms.ToTensor(event_module=event_module,
