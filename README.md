@@ -36,6 +36,10 @@ If you use any of this code, please cite both following publications:
 - [Training](#training)
 - [Inference](#inference)
     * [Pre-trained model](#pre-trained-model)
+- [What is not ready yet](#what-is-not-ready-yet)
+- [Benchmark website](#benchmark-website)
+- [Related publications](#related-publications)
+- [License](#license)
 
 ## Pre-requisite
 The following sections list the requirements for training/evaluation the model.
@@ -137,6 +141,13 @@ python3 inference.py \
 
 ### Pre-trained model
 :gear: You can download pre-trained model from [here](https://drive.google.com/file/d/14_tmyMsXkd1H_0LWWe8GOXa_86OjsboG/view?usp=sharing)
+
+## What is not ready yet
+Some modules introduced in the paper are not ready yet. We will update it soon.
+- Intensity image pre-processing code.
+- E+I Model code.
+- E+I train & test code.
+- Future event distillation code.
 
 ## Benchmark website
 The [DSEC website](https://dsec.ifi.uzh.ch) holds the benchmarks and competitions. 
