@@ -15,10 +15,10 @@ RUN apt-get install -y htop
 
 ENV PYTHONIOENCODING=UTF-8
 
-RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+RUN wget https://repo.anaconda.com/miniconda/Miniconda3-py39_22.11.1-1-Linux-x86_64.sh
 RUN mkdir /root/.conda
-RUN bash Miniconda3-latest-Linux-x86_64.sh -b
-RUN rm -f Miniconda3-latest-Linux-x86_64.sh
+RUN bash Miniconda3-py39_22.11.1-1-Linux-x86_64.sh -b
+RUN rm -f Miniconda3-py39_22.11.1-1-Linux-x86_64.sh
 RUN conda init bash
 
 RUN python3 -m pip install --upgrade pip
